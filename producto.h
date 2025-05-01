@@ -13,10 +13,10 @@ public:
         numero = nuevoNumero;
     }
     void setNombre(const char* nuevoNombre) {
-        nombre = nuevoNombre;
+        strcpy(nombre, nuevoNombre);
     }
     void setTipo(const char* nuevoTipo) {
-        tipo = nuevoTipo;
+        strcpy(tipo, nuevoTipo);
     }
     void setPrecio(int nuevoPrecio) {
         precio = nuevoPrecio;

@@ -9,6 +9,27 @@ private:
     int precio;
     int stock;
 public:
+    void cargar() {
+        cout << "Ingrese numero: " << endl;
+        cin >> numero;
+        cout << "Ingrese nombre: " << endl;
+        cin >> nombre;
+        cout << "Ingrese tipo: " << endl;
+        cin >> tipo;
+        cout << "Ingrese precio: " << endl;
+        cin >> precio;
+        cout << "Ingrese stock: " << endl;
+        cin >> stock;
+    }
+
+    void mostrar() {
+        cout << "Numero: " << numero << endl;
+        cout << "Nombre: " << nombre << endl;
+        cout << "Tipo: " << tipo << endl;
+        cout << "Precio: " << precio << endl;
+        cout << "Stock: " << stock << endl;
+    }
+
     void setNumero(int nuevoNumero) {
         numero = nuevoNumero;
     }

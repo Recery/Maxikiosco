@@ -2,16 +2,33 @@
 #define PROVEEDOR_H_INCLUDED
 class Proveedor{
 private:
-    int dni;
     int cuit;
     char nombre[30];
     int numero;
     char email[40];
     char direccion[100];
 public:
-    void set_dni( int nuevo_dni ){
-    dni = nuevo_dni;
+    void ingresarDatos() {
+        cout << "Ingrese cuit: " << endl;
+        cin >> cuit;
+        cout << "Ingrese nombre: " << endl;
+        cin >> nombre;
+        cout << "Ingrese numero: " << endl;
+        cin >> numero;
+        cout << "Ingrese email: " << endl;
+        cin >> email;
+        cout << "Ingrese direccion: " << endl;
+        cin >> direccion;
     }
+
+    void mostrar() {
+        cout << "Cuit: " << cuit << endl;
+        cout << "Nombre: " << nombre << endl;
+        cout << "Numero: " << numero << endl;
+        cout << "Email: " << email << endl;
+        cout << "Direccion: " << direccion << endl;
+    }
+
     void set_cuit(int nuevo_cuit){
     cuit= nuevo_cuit;
 
@@ -32,9 +49,6 @@ public:
 
     }
 
-    int get_dni(){
-    return dni;
-    }
     int get_cuit (){
     return cuit;
     }

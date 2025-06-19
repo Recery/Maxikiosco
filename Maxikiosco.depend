@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1750300846 source:c:\users\usuario\documents\proyectomaxikiosco\maxikiosco\main.cpp
+	<iostream>
+	<cstring>
+	"fecha.h"
+	"proveedor.h"
+	"producto.h"
+	"compra.h"
+	"submenuProveedores.h"
+
+1747242224 c:\users\usuario\documents\proyectomaxikiosco\maxikiosco\fecha.h
+
+1750299090 c:\users\usuario\documents\proyectomaxikiosco\maxikiosco\proveedor.h
+
+1747242224 c:\users\usuario\documents\proyectomaxikiosco\maxikiosco\producto.h
+
+1747242224 c:\users\usuario\documents\proyectomaxikiosco\maxikiosco\compra.h
+
+1750300846 c:\users\usuario\documents\proyectomaxikiosco\maxikiosco\submenuproveedores.h
+	"archivoProveedores.h"
+
+1750299779 c:\users\usuario\documents\proyectomaxikiosco\maxikiosco\archivoproveedores.h
+
